@@ -1,0 +1,118 @@
+.loginContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #973999, #f8598b, #f7bf00);
+  min-height: 100vh;
+}
+
+.loginHeading{
+  font-size: 40px;
+  margin: 15px;
+}
+
+.username, .password{
+  height: 27px;
+  width: 240px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.input{
+  height: 27px;
+  width: 240px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.searchContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-search-container{
+  display: flex;
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub{
+  margin: 4px;
+}
+.sub-anime{
+  margin: 8px;
+}
+.sub-anime-container{
+  margin: 16px;
+}
+
+.loginBtn {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  padding: 8px;
+  width: 190px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.loginBtn{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.loginBtn:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.loginBtn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.loginBtn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.signUpHead{
+  font-size: 18px;
+}
+
+.signUpLink{
+  text-decoration: underline;
+}
+
+.signUpLink:hover{
+  cursor: pointer;
+}
+
+.cover_image {
+  height: 80%;
+  width: 300px;
+  margin: 15px;
+}
+
+.cover_imageAnime{
+  width: 250px;
+  height: 300px;
+}
